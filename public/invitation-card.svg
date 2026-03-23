@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#fff6e9"/>
+  <rect x="50" y="50" width="700" height="500" rx="30" fill="#fff" stroke="#d8a77a" stroke-width="8"/>
+  <text x="400" y="160" font-family="Playfair Display, serif" font-size="48" fill="#9b5f34" font-weight="700" text-anchor="middle">Alex & Mesi</text>
+  <text x="400" y="220" font-family="Lora, serif" font-size="28" fill="#7b4b2f" text-anchor="middle">Request the pleasure of your company</text>
+  <text x="400" y="280" font-family="Lora, serif" font-size="24" fill="#5f3b28" text-anchor="middle">on Saturday, October 12th</text>
+  <text x="400" y="320" font-family="Lora, serif" font-size="24" fill="#5f3b28" text-anchor="middle">at 4:00 PM</text>
+  <text x="400" y="360" font-family="Lora, serif" font-size="24" fill="#5f3b28" text-anchor="middle">Sunset Garden, 1234 Love Lane</text>
+  <text x="400" y="430" font-family="Lora, serif" font-size="20" fill="#7b4b2f" text-anchor="middle">Please RSVP at wedding.example.com/rsvp</text>
+</svg>
