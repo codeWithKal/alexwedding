@@ -37,7 +37,7 @@ export function Details() {
   return (
     <section className="py-20 md:py-32 bg-secondary">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 animate-fade-in">
           <p className="text-primary text-sm tracking-widest uppercase font-lora">
             ዕለታዊ የመርሃግብር ዝርዝር
           </p>
@@ -53,7 +53,7 @@ export function Details() {
           {events.map((event, index) => (
             <div
               key={index}
-              className="bg-background/50 p-8 rounded-lg border border-primary/20"
+              className="bg-background/50 p-8 rounded-lg border border-primary/20 animate-fade-in-up"
             >
               <h3 className="text-2xl font-playfair font-bold text-primary mb-4">
                 {event.title}

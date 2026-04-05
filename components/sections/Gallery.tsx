@@ -26,7 +26,7 @@ export function Gallery() {
   return (
     <section className="py-20 md:py-32 bg-background">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 animate-fade-in">
           <p className="text-primary text-sm tracking-widest uppercase font-lora">
             የማይረሱ ጊዜያቶች
           </p>
@@ -39,7 +39,7 @@ export function Gallery() {
           {images.map((image, index) => (
             <div
               key={index}
-              className="relative h-80 cursor-pointer overflow-hidden rounded-lg group"
+              className="relative h-80 cursor-pointer overflow-hidden rounded-lg group animate-fade-in-up"
               onClick={() => setSelectedImage(index)}
             >
               <Image

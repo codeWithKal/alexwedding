@@ -80,7 +80,7 @@ export function RSVP() {
                 onSubmit={handleSubmit}
                 className="space-y-6 bg-secondary p-8 rounded-lg"
               >
-                <div>
+                <div className="animate-slide-in-left">
                   <label className="block text-sm uppercase tracking-wide text-primary mb-2">
                     ሙሉ ስም *
                   </label>
@@ -123,7 +123,7 @@ export function RSVP() {
             <h3 className="text-xl font-playfair font-bold text-foreground mb-4">
               አድራሻ: አሌልቱ
             </h3>
-            <div className="aspect-video">
+            <div className="aspect-video animate-slide-in-right">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12738.667168860778!2d39.14207418002557!3d9.197236735924998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164bc600b973fc4b%3A0xebb7ee496042f241!2sAleltu!5e1!3m2!1sen!2set!4v1775303822370!5m2!1sen!2set"
                 width="100%"

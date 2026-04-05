@@ -8,7 +8,7 @@ export function Story() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Image */}
-          <div className="relative h-96 md:h-[500px]">
+          <div className="relative h-96 md:h-[500px] animate-slide-in-left">
             <Image
               src="/story-image.jpg"
               alt="Our Story"
@@ -18,7 +18,7 @@ export function Story() {
           </div>
 
           {/* Content */}
-          <div className="space-y-6">
+          <div className="space-y-6 animate-fade-in-right">
             <h2 className="text-4xl md:text-5xl text-center font-playfair font-bold text-foreground">
               ለውድ ቤተሰቦቻችን እና ጓኞቻችን
             </h2>

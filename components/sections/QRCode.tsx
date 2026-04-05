@@ -16,7 +16,7 @@ export function QRCodeSection() {
 
   return (
     <section className="py-20 md:py-32 bg-secondary">
-      <div className="max-w-2xl mx-auto px-6 text-center">
+      <div className="max-w-2xl mx-auto px-6 text-center animate-fade-in-up">
         <p className="text-primary text-sm tracking-widest uppercase font-lora">
           ለክቡራን እንግዶች
         </p>
@@ -25,7 +25,7 @@ export function QRCodeSection() {
           የመጥሪያ ካርዶትን ለማግኘት ከዚህ በታች ያለውን QR code ስካን ያድርጉ።
         </h2>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center animate-fade-in">
           <a
             href="/download-invitation"
             className="block bg-white p-8 rounded-lg hover:bg-gray-50 transition-colors"

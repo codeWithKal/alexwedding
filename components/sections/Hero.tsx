@@ -18,15 +18,15 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-6 space-y-6 max-w-3xl">
+      <div className="relative z-10 text-center px-6 space-y-6 max-w-3xl animate-fade-in">
         <p className="text-primary text-lg tracking-widest uppercase font-lora">
           ይድረስ ለወዳጅ ለዘመድ
         </p>
 
-        <h1 className="text-5xl md:text-7xl font-playfair font-bold text-foreground leading-tight">
+        <h1 className="text-5xl md:text-7xl font-playfair font-bold text-foreground leading-tight animate-zoom-in">
           አለማየሁ ብርሃኑ <div className="flont-playfair">&</div> መሰረት ዳኜ
         </h1>
-        <div className="flex items-center justify-center p-4">
+        <div className="flex items-center justify-center p-4 animate-pulse-slow">
           <div className="relative w-12 h-12">
             <div className="absolute top-0 left-0 w-8 h-8 rounded-full border-2 border-yellow-500"></div>
 
@@ -34,7 +34,7 @@ export function Hero() {
           </div>
         </div>
 
-        <p className="text-xl md:text-2xl text-foreground/80 font-lora italic">
+        <p className="text-xl md:text-2xl text-foreground/80 font-lora italic animate-fade-in-right">
           "ስለዚህ እግዚአብሔር ያጣመረውን ሰው አይለየው" (ማርቆስ 10:9)
         </p>
 
