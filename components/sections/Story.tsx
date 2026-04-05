@@ -19,9 +19,12 @@ export function Story() {
 
           {/* Content */}
           <div className="space-y-6">
+            <h2 className="text-4xl md:text-5xl text-center font-playfair font-bold text-foreground">
+              ለውድ ቤተሰቦቻችን እና ጓኞቻችን
+            </h2>
+
             <p className="text-foreground/70 text-lg font-lora leading-relaxed">
-              ለውድ ቤተሰቦቻችን እና ጓኞቻችን "እግዚያብሄር የሰራት ቀን ይህቺ ናት:ሐሴትን እናድርግ:በዕርስዋም ደስ
-              ይበለን" መዝ 118:24
+              "እግዚያብሄር የሰራት ቀን ይህቺ ናት:ሐሴትን እናድርግ:በዕርስዋም ደስ ይበለን" መዝ 118:24
               <p className="text-foreground/70 text-lg font-lora leading-relaxed">
                 የማክበር ሰላምታችንን እያቀረብን እሁድ ሚያዚያ 25/2018 ዓ.ም በሚደረገው የጋብቻ ስነ-ስርዓታችን
                 ላይ እንዲገኙልን ስንል ባክብሮት ጋብዘንዎታል:: የደስታችን ተካፋይ ስለሆኑ እናመሰግናለን::
