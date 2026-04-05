@@ -23,16 +23,18 @@ export function Story() {
               ለውድ ቤተሰቦቻችን እና ጓኞቻችን
             </h2>
 
-            <p className="text-foreground/70 text-lg font-lora leading-relaxed">
+            <p className="text-white text-lg text-center font-bold leading-relaxed">
               "እግዚያብሄር የሰራት ቀን ይህቺ ናት:ሐሴትን እናድርግ:በዕርስዋም ደስ ይበለን" መዝ 118:24
-              <p className="text-foreground/70 text-lg font-lora leading-relaxed">
-                የማክበር ሰላምታችንን እያቀረብን እሁድ ሚያዚያ 25/2018 ዓ.ም በሚደረገው የጋብቻ ስነ-ስርዓታችን
-                ላይ እንዲገኙልን ስንል ባክብሮት ጋብዘንዎታል:: የደስታችን ተካፋይ ስለሆኑ እናመሰግናለን::
-              </p>
+            </p>
+            <br />
+
+            <p className="text-foreground/70 text-lg text-center font-lora leading-relaxed">
+              የማክበር ሰላምታችንን እያቀረብን እሁድ ሚያዚያ 25/2018 ዓ.ም በሚደረገው የጋብቻ ስነ-ስርዓታችን ላይ
+              እንዲገኙልን ስንል ባክብሮት ጋብዘንዎታል:: የደስታችን ተካፋይ ስለሆኑ እናመሰግናለን::
             </p>
 
             <div className="pt-6">
-              <p className="text-primary font-playfair text-2xl italic">
+              <p className="text-primary font-playfair text-center text-2xl italic">
                 ስለዚህ ሰው አባቱንና እናቱን ይተዋል፥ በሚስቱም ይጣበቃል፤ ሁለቱም አንድ ሥጋ ይሆናሉ ዘፍጥረት
                 2፥24
               </p>
