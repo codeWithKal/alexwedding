@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden bg-background">
+    <section className="relative h-screen flex items-end justify-center overflow-hidden bg-background">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -18,13 +18,13 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-6 space-y-6 max-w-3xl animate-fade-in">
+      <div className="relative z-10 text-center px-6 space-y-6 max-w-3xl animate-fade-in pb-20">
         <p className="text-primary text-lg tracking-widest uppercase font-lora">
           ይድረስ ለወዳጅ ለዘመድ
         </p>
 
-        <h1 className="text-5xl md:text-7xl font-playfair font-bold text-foreground leading-tight animate-zoom-in">
-          አለማየሁ ብርሃኑ <div className="flont-playfair">&</div> መሰረት ዳኜ
+        <h1 className="text-5xl md:text-7xl mt-8 font-playfair font-bold italic text-foreground leading-tight animate-zoom-in">
+          አለማየሁ ብርሃኑ <div className="font-playfair">&</div> መሰረት ዳኜ
         </h1>
         <div className="flex items-center justify-center p-4 animate-pulse-slow">
           <div className="relative w-12 h-12">
@@ -38,7 +38,7 @@ export function Hero() {
           "ስለዚህ እግዚአብሔር ያጣመረውን ሰው አይለየው" (ማርቆስ 10:9)
         </p>
 
-        <div className="pt-8">
+        <div>
           <p className="text-foreground/60 text-lg">
             ቀጣዩን ለማየት ወደታች scroll ያርጉት
           </p>
