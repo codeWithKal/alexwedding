@@ -30,7 +30,10 @@ export function Story() {
 
             <p className="text-foreground/70 text-lg text-center font-lora leading-relaxed">
               የማክበር ሰላምታችንን እያቀረብን እሁድ ሚያዚያ 25/2018 ዓ.ም በሚደረገው የጋብቻ ስነ-ስርዓታችን ላይ
-              እንዲገኙልን ስንል ባክብሮት ጋብዘንዎታል:: የደስታችን ተካፋይ ስለሆኑ እናመሰግናለን::
+              እንዲገኙልን ስንል ባክብሮት ጋብዘንዎታል::
+              <br />
+              <br />
+              የደስታችን ተካፋይ ስለሆኑ እናመሰግናለን::
             </p>
 
             <div className="pt-6">
